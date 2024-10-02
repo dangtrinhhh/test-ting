@@ -20,7 +20,7 @@ func main() {
 
 	// Handle CORS
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:3000", "http://example.com"},
+		AllowOrigins:     []string{"http://localhost:3000", "https://3729-2405-4802-902e-b0b0-8065-a14b-3339-4ae3.ngrok-free.app"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
