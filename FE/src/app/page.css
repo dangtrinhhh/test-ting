@@ -1,11 +1,28 @@
-
 /* 
     This is the CSS file for the page component. 
     It contains the styles for the header of the page.
 */
-.header { 
+.header {
     background-color: #333;
     color: white;
-    padding: 1em;
     text-align: center;
+}
+
+body {
+    background-color: #333;
+}
+
+.carousel-section {
+    width: 60vw;
+    margin: auto;
+}
+
+.kols-carousel {
+    width: 40vw;
+    margin: auto;
+}
+
+.kol-image {
+    width: 100%;
+    object-fit: cover;
 }
